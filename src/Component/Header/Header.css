@@ -1,22 +1,22 @@
 .header {
-	width: 100%;
-	cursor: pointer;
-	position: fixed;
-	display: flex;
-	justify-content: center;
-	text-transform: uppercase;
-	background-color: #39445a;
-	font-family: "Montserrat", sans-serif;
-	font-size: 3vw;
-	padding-bottom: 15px;
-	box-shadow: 0px 1px 5px black;
-	color: white;
-	z-index: 100;
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    /* text-transform: uppercase; */
+    background-color: #27282b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 5px black;
+    color: #c0b4c7;
+    z-index: 100;
 }
 
 @media (max-width: 1000px) {
-	.header {
-		padding-top: 15px;
-		font-size: 5.4vw;
-	}
+    .header {
+        padding-top: 15px;
+        font-size: 5.4vw;
+    }
 }

@@ -48,7 +48,7 @@ export default function SimpleBottomNavigation() {
 					width: "100%",
 					position: "fixed",
 					bottom: 0,
-					backgroundColor: "#2d313a",
+					backgroundColor: "#242427",
 					zIndex: 100,
 				}}
 			>

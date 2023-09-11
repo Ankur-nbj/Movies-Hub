@@ -1,7 +1,7 @@
 import { Badge } from "@mui/material"
 import { img_300, unavailable } from "../../Config/Config"
 import "./SingleContent.css"
-// import ContentModal from "../ContentModal/ContentModal";
+import ContentModal from "../ContentModal/ContentModal";
 import ContentManager from "../ContentModal/ContentManager"
 
 const SingleContent = ({
@@ -25,8 +25,8 @@ const SingleContent = ({
 			/>
 			<b className="title">{title}</b>
 			<span className="subTitle">
-				{media_type === "tv" ? "TV Series" : "Movie"}
-				<span className="subTitle">{date}</span>
+				<b>{media_type === "tv" ? "TV Series" : "Movie"}</b>
+				<span className="subTitle"><b>{date}</b></span>
 			</span>
 		</ContentManager>
 	)

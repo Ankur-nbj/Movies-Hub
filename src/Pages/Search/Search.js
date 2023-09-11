@@ -57,7 +57,7 @@ const Search = () => {
 			<ThemeProvider theme={darkTheme}>
 				<div className="search">
 					<TextField
-						style={{ flex: 1 }}
+						style={{ flex: 1, backgroundColor:"white" }}
 						className="searchBox"
 						label="Search"
 						variant="filled"
@@ -66,7 +66,7 @@ const Search = () => {
 					<Button
 						onClick={search}
 						variant="contained"
-						style={{ marginLeft: 10 }}
+						style={{ marginLeft: 10}}
 					>
 						<SearchIcon fontSize="large" />
 					</Button>
@@ -82,8 +82,8 @@ const Search = () => {
 					style={{ paddingBottom: 5 }}
 					aria-label="disabled tabs example"
 				>
-					<Tab style={{ width: "50%" }} label="Search Movies" />
-					<Tab style={{ width: "50%" }} label="Search TV Series" />
+					<Tab style={{ width: "50%", color:"white" }} label="Search Movies" />
+					<Tab style={{ width: "50%", color: "white" }} label="Search TV Series" />
 				</Tabs>
 			</ThemeProvider>
 			<div className="trending">

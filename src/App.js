@@ -7,10 +7,12 @@ import Trending from "./Pages/Trending/Trending"
 import Movies from "./Pages/Movies/Movies"
 import Search from "./Pages/Search/Search"
 import Series from "./Pages/Series/Series"
+import {StyledEngineProvider} from "@mui/material"
 
 function App() {
 	return (
 		<BrowserRouter>
+		<StyledEngineProvider injectFirst>
 			<Header />
 			<div className="app">
 				<Container>
@@ -23,6 +25,7 @@ function App() {
 				</Container>
 			</div>
 			<SimpleBottomNavigation />
+		</StyledEngineProvider>
 		</BrowserRouter>
 	)
 }
