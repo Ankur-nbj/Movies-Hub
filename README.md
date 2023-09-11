@@ -71,7 +71,7 @@ Using Movies Hub is straightforward:
 
 We welcome contributions to Movies Hub. If you would like to contribute to this project, please follow these steps:
 
-1. Fork the repository on GitHub: [https://github.com/yourusername/movies-hub](https://github.com/yourusername/movies-hub).
+1. Fork the repository on GitHub: [https://github.com/yourusername/movies-hub](https://github.com/Ankur-nbj/movies-hub).
 
 2. Make your changes and improvements.
 
@@ -86,6 +86,8 @@ Movies Hub is licensed under the MIT License. You can find the full license text
 ---
 
 Thank you for using Movies Hub! We hope you enjoy using our movie discovery platform. If you have any questions, suggestions, or encounter any issues, please feel free to reach out to us. Happy movie watching!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
