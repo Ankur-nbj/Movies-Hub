@@ -1,6 +1,6 @@
 # Movies Hub Readme
+<img width="917" alt="Screenshot 2023-09-12 034847" src="https://github.com/Ankur-nbj/Movies/assets/108694248/e831d3ac-35d4-437b-b002-8d2af71b9191">
 
-![Movies Hub Logo](https://movies-hub-ankur.netlify.app/images/logo.png)
 
 Welcome to Movies Hub! This is a simple web application for movie enthusiasts where you can discover information about your favorite movies and explore new ones. This README file will provide you with all the necessary information to understand and use Movies Hub effectively.
 
