@@ -11,7 +11,6 @@ const Movies = () => {
 	const [content, setContent] = useState([])
 	const [numOfPages, setNumOfPages] = useState()
 	const genreforURL = useGenre(selectedGenres)
- const API_KEY=process.env.API_KEY;
 	const options = {
 		method: "GET",
 		url: "https://api.themoviedb.org/3/discover/movie",
