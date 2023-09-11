@@ -87,6 +87,7 @@ Movies Hub is licensed under the MIT License. You can find the full license text
 
 Thank you for using Movies Hub! We hope you enjoy using our movie discovery platform. If you have any questions, suggestions, or encounter any issues, please feel free to reach out to us. Happy movie watching!
 
+            *******************************************************************************************
 
 # Getting Started with Create React App
 
